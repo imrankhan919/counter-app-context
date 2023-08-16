@@ -3,9 +3,7 @@ export const increaseNumber = () => {
 };
 
 export const decreaseNumber = () => {
-  dispatch({
-    type: "DECREASE_NUMBER",
-  });
+  return "DECREASE_NUMBER";
 };
 
 export const checkEven = (num) => {
