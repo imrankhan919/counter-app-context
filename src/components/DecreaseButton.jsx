@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import NumberContext from "../context/NumberContext";
+import { decreaseNumber } from "../context/NumberAction";
 
 const DecreaseButton = () => {
   const { dispatch } = useContext(NumberContext);
